@@ -1,0 +1,11 @@
+name: fly
+version: '${project.version}'
+main: me.kodysimpson.fly.Fly
+api-version: '1.20'
+permissions:
+  illuminatifly.fly:
+    description: Allows a player to run the /fly command
+commands:
+  fly:
+    description: Allows a player to fly
+    usage: /fly
